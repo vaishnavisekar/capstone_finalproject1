@@ -47,9 +47,9 @@ public class BaseTest {
 			@Test
 			public void checkoutinfo() {
 			// 8) Enter the details of the customer 
-			driver.findElement(By.id("first-name")).sendKeys("Malleswari");
-			driver.findElement(By.id("last-name")).sendKeys("Pukkalla");
-			driver.findElement(By.id("postal-code")).sendKeys("530043");
+			driver.findElement(By.id("first-name")).sendKeys("vaishnavi");
+			driver.findElement(By.id("last-name")).sendKeys("sekar");
+			driver.findElement(By.id("postal-code")).sendKeys("609806");
 			}
 			@Test
 			public void placeOrder() {
